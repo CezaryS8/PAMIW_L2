@@ -23,7 +23,7 @@ namespace P04WeatherForecastAPI.Client.ViewModels
         private CityViewModel _selectedCity;
         private Weather _weather;
         private DailyForecastRoot _dailyForecastRoot;
-        // private HistoricalCurrentConditions[] _historicalCurrentConditions;
+        private HistoricalCurrentConditions[] _historicalCurrentConditions;
         private readonly IAccuWeatherService _accuWeatherService;
         // private readonly FavoriteCitiesView _favoriteCitiesView;
         // private readonly FavoriteCityViewModel _favoriteCityViewModel;
@@ -60,10 +60,9 @@ namespace P04WeatherForecastAPI.Client.ViewModels
             {
                 _weather = await _accuWeatherService.GetCurrentConditions(SelectedCity.Key); 
                 _dailyForecastRoot = await _accuWeatherService.GetOneDayOfDailyForecasts(SelectedCity.Key);
-                // _historicalCurrentConditions = await _accuWeatherService.GetHistoricalCurrentConditions(SelectedCity.Key);
+                _historicalCurrentConditions = await _accuWeatherService.GetHistoricalCurrentConditions(SelectedCity.Key);
 
-                // WeatherView = new WeatherViewModel(_weather, _dailyForecastRoot, _historicalCurrentConditions);
-                WeatherView = new WeatherViewModel(_weather, _dailyForecastRoot);
+                WeatherView = new WeatherViewModel(_weather, _dailyForecastRoot, _historicalCurrentConditions);
             }
         } 
 

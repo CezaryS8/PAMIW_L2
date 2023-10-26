@@ -9,20 +9,19 @@ namespace P04WeatherForecastAPI.Client.ViewModels
 {
     public class WeatherViewModel
     {
-        // public WeatherViewModel(Weather weather, DailyForecastRoot dailyForecastRoot, HistoricalCurrentConditions[] historicalCurrentConditions)
-        public WeatherViewModel(Weather weather, DailyForecastRoot dailyForecastRoot)
+        public WeatherViewModel(Weather weather, DailyForecastRoot dailyForecastRoot, HistoricalCurrentConditions[] historicalCurrentConditions)
         {
             CurrentTemperature = weather.Temperature.Metric.Value;
             HasPrecipitation = weather.HasPrecipitation;
             TodayMinTemperature = dailyForecastRoot.DailyForecasts[0].Temperature.Minimum.Value;
             TodayMaxTemperature = dailyForecastRoot.DailyForecasts[0].Temperature.Maximum.Value;
-            // HistoricalCurrentConditions = historicalCurrentConditions;
+            HistoricalCurrentConditions = historicalCurrentConditions;
         }
         public double CurrentTemperature { get; set; }
         public bool HasPrecipitation { get; set;}
         public double TodayMinTemperature { get; set; }
         public double TodayMaxTemperature { get; set; }
-        // public HistoricalCurrentConditions[] HistoricalCurrentConditions { get; set; }
+        public HistoricalCurrentConditions[] HistoricalCurrentConditions { get; set; }
 
     }
 }

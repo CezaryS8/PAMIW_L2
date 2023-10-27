@@ -67,23 +67,25 @@
         </StackPanel>
 
 
-        <!-- <StackPanel>
+        <StackPanel>
             <Label Content="Top 50 cities:" ></Label>
-            <Button x:Name="btnSearchTopCities" Content="Search" Click="btnSearchTopCities_Click"></Button>
-            <ListBox x:Name="lbTopCities">
+             <Button x:Name="btnSearchTopCities" Content="Search" Command="{Binding LoadTopCitiesCommand}" CommandParameter="{Binding Text, ElementName=txtTopCities}" Style="{StaticResource mainButtonStyle}"></Button>
+
+            <ListBox x:Name="txtTopCities" ItemsSource="{Binding TopCities}">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
-                        <TextBlock>
-                            <Run Text="{Binding LocalizedName}" />
-                            <Run Text=" | Administrative area: " />
-                            <Run Text="{Binding AdministrativeArea.LocalizedName}" />
-                        </TextBlock>
-                    </StackPanel>
+                            <TextBlock>
+                                <Run Text="{Binding LocalizedName}" />
+                                <Run Text=" | Administrative area: " />
+                                <Run Text="{Binding AdministrativeAreaLocalizedName}" />
+                            </TextBlock>
+                        </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-        </StackPanel> -->
+
+        </StackPanel>
 
     </DockPanel>
 </Window>

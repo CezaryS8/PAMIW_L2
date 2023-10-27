@@ -25,21 +25,17 @@ namespace P04WeatherForecastAPI.Client.ViewModels
         private DailyForecastRoot _dailyForecastRoot;
         private HistoricalCurrentConditions[] _historicalCurrentConditions;
         private readonly IAccuWeatherService _accuWeatherService;
-        // private readonly FavoriteCitiesView _favoriteCitiesView;
-        // private readonly FavoriteCityViewModel _favoriteCityViewModel;
-
-
-        // public MainViewModelV4(IAccuWeatherService accuWeatherService, FavoriteCityViewModel favoriteCityViewModel, FavoriteCitiesView favoriteCitiesView)
         public MainViewModelV4(IAccuWeatherService accuWeatherService)
         {
-            // _favoriteCitiesView = favoriteCitiesView;
-            // _favoriteCityViewModel = favoriteCityViewModel;
             _accuWeatherService = accuWeatherService;
-            Cities = new ObservableCollection<CityViewModel>(); // podejście nr 2 
+            Cities = new ObservableCollection<CityViewModel>();
+            TopCities = new ObservableCollection<TopCityViewModel>();
         }
 
         [ObservableProperty]
         private WeatherViewModel weatherView;
+        [ObservableProperty]
+        private TopCityViewModel topCityView;
 
 
         public CityViewModel SelectedCity
@@ -50,23 +46,23 @@ namespace P04WeatherForecastAPI.Client.ViewModels
                 _selectedCity = value;
                 OnPropertyChanged();
                 LoadWeather();
+                // LoadTopCities();
             }
         }
 
-         
+
         private async void LoadWeather()
         {
-            if(SelectedCity != null)
+            if (SelectedCity != null)
             {
-                _weather = await _accuWeatherService.GetCurrentConditions(SelectedCity.Key); 
+                _weather = await _accuWeatherService.GetCurrentConditions(SelectedCity.Key);
                 _dailyForecastRoot = await _accuWeatherService.GetOneDayOfDailyForecasts(SelectedCity.Key);
                 _historicalCurrentConditions = await _accuWeatherService.GetHistoricalCurrentConditions(SelectedCity.Key);
 
                 WeatherView = new WeatherViewModel(_weather, _dailyForecastRoot, _historicalCurrentConditions);
             }
-        } 
+        }
 
-        // podajście nr 2 do przechowywania kolekcji obiektów:
         public ObservableCollection<CityViewModel> Cities { get; set; }
 
         [RelayCommand]
@@ -75,15 +71,19 @@ namespace P04WeatherForecastAPI.Client.ViewModels
             // podejście nr 2:
             var cities = await _accuWeatherService.GetLocations(locationName);
             Cities.Clear();
-            foreach (var city in cities) 
+            foreach (var city in cities)
                 Cities.Add(new CityViewModel(city));
         }
 
-        // [RelayCommand]
-        // public void OpenFavotireCities()
-        // {
-        //     _favoriteCityViewModel.SelectedCity = new FavoriteCity() { Name = "Warsaw" };
-        //     _favoriteCitiesView.Show();
-        // }
+        public ObservableCollection<TopCityViewModel> TopCities { get; set; }
+
+        [RelayCommand]
+        public async void LoadTopCities()
+        {
+            var topCities = await _accuWeatherService.GetTopCitiesList();
+            Cities.Clear();
+            foreach (var city in topCities)
+                TopCities.Add(new TopCityViewModel(city));
+        }
     }
 }

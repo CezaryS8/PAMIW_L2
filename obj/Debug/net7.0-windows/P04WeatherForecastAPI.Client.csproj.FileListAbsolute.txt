@@ -171,3 +171,40 @@ C:\Users\czare\Documents\Wyklady\PAMIW LAB\PROJEKT 2\PAMIW_L2\obj\Debug\net7.0-w
 C:\Users\czare\Documents\Wyklady\PAMIW LAB\PROJEKT 2\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.pdb
 C:\Users\czare\Documents\Wyklady\PAMIW LAB\PROJEKT 2\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.genruntimeconfig.cache
 C:\Users\czare\Documents\Wyklady\PAMIW LAB\PROJEKT 2\PAMIW_L2\obj\Debug\net7.0-windows\ref\P04WeatherForecastAPI.Client.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\appsetings.json
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\P04WeatherForecastAPI.Client.exe
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\P04WeatherForecastAPI.Client.deps.json
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\P04WeatherForecastAPI.Client.runtimeconfig.json
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\P04WeatherForecastAPI.Client.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\P04WeatherForecastAPI.Client.pdb
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.csproj.AssemblyReference.cache
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client_MarkupCompile.cache
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client_MarkupCompile.lref
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.g.resources
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.AssemblyInfoInputs.cache
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.AssemblyInfo.cs
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.csproj.CoreCompileInputs.cache
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.csproj.CopyComplete
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\refint\P04WeatherForecastAPI.Client.dll
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.pdb
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\P04WeatherForecastAPI.Client.genruntimeconfig.cache
+C:\Users\czare\Documents\Wyklady\PAMIW LAB\PAMIW_L2\obj\Debug\net7.0-windows\ref\P04WeatherForecastAPI.Client.dll
